@@ -31,8 +31,8 @@ public class TrialOneApplication implements CommandLineRunner{
 		System.out.println(student);
 		ShapeFactory shapeFactory = context.getBean(ShapeFactory.class);
 		shapeFactory.printArea(8, 6);*/
-		FoodPanda foodPanda = context.getBean(FoodPanda.class);
-		System.out.println(foodPanda.showMenu("Chinese"));
+		//FoodPanda foodPanda = context.getBean(FoodPanda.class);
+		//System.out.println(foodPanda.showMenu("Chinese"));
 		VehicleDetails vehicleDetails = context.getBean(VehicleDetails.class);
 		vehicleDetails.getMileage("Car");
 	}
